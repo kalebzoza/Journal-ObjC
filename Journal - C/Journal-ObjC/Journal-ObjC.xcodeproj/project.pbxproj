@@ -14,6 +14,8 @@
 		5AF099302522847000CB4A28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF0992E2522847000CB4A28 /* LaunchScreen.storyboard */; };
 		5AF099332522847000CB4A28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF099322522847000CB4A28 /* main.m */; };
 		5AF09946252284F400CB4A28 /* KCEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF09945252284F400CB4A28 /* KCEntry.m */; };
+		5AF0994D2522931500CB4A28 /* KCEntryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF0994C2522931500CB4A28 /* KCEntryController.m */; };
+		5AF099522522AA9A00CB4A28 /* KCEntryListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF099512522AA9A00CB4A28 /* KCEntryListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		5AF099322522847000CB4A28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5AF09944252284F400CB4A28 /* KCEntry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCEntry.h; sourceTree = "<group>"; };
 		5AF09945252284F400CB4A28 /* KCEntry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCEntry.m; sourceTree = "<group>"; };
+		5AF0994B2522931500CB4A28 /* KCEntryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCEntryController.h; sourceTree = "<group>"; };
+		5AF0994C2522931500CB4A28 /* KCEntryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCEntryController.m; sourceTree = "<group>"; };
+		5AF099502522AA9A00CB4A28 /* KCEntryListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCEntryListTableViewController.h; sourceTree = "<group>"; };
+		5AF099512522AA9A00CB4A28 /* KCEntryListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCEntryListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +71,6 @@
 				5AF0993F252284B300CB4A28 /* Controllers */,
 				5AF0993E252284AE00CB4A28 /* Views */,
 				5AF0993A2522847D00CB4A28 /* Resource */,
-				5AF099292522846F00CB4A28 /* Main.storyboard */,
 			);
 			path = "Journal-ObjC";
 			sourceTree = "<group>";
@@ -114,6 +119,7 @@
 		5AF09941252284BF00CB4A28 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				5AF099292522846F00CB4A28 /* Main.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -121,6 +127,8 @@
 		5AF09942252284CB00CB4A28 /* Views Controller  */ = {
 			isa = PBXGroup;
 			children = (
+				5AF099502522AA9A00CB4A28 /* KCEntryListTableViewController.h */,
+				5AF099512522AA9A00CB4A28 /* KCEntryListTableViewController.m */,
 			);
 			path = "Views Controller ";
 			sourceTree = "<group>";
@@ -128,6 +136,8 @@
 		5AF09943252284D200CB4A28 /* Model Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5AF0994B2522931500CB4A28 /* KCEntryController.h */,
+				5AF0994C2522931500CB4A28 /* KCEntryController.m */,
 			);
 			path = "Model Controller";
 			sourceTree = "<group>";
@@ -204,6 +214,8 @@
 			files = (
 				5AF09946252284F400CB4A28 /* KCEntry.m in Sources */,
 				5AF099222522846F00CB4A28 /* AppDelegate.m in Sources */,
+				5AF099522522AA9A00CB4A28 /* KCEntryListTableViewController.m in Sources */,
+				5AF0994D2522931500CB4A28 /* KCEntryController.m in Sources */,
 				5AF099332522847000CB4A28 /* main.m in Sources */,
 				5AF099252522846F00CB4A28 /* SceneDelegate.m in Sources */,
 			);

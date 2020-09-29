@@ -11,9 +11,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface KCEntry : NSObject
 
-@property (nonatomic, copy, readonly) NSString *title;
-@property (nonatomic, copy, readonly) NSString *bodyText;
-@property (nonatomic, copy, readonly) NSString *timestamp;
+@property (nonatomic, copy) NSString *title;
+@property (nonatomic, copy) NSString *bodyText;
+@property (nonatomic, copy) NSDate *timestamp;
+
+- (instancetype)initWithTitle:(NSString *)title
+                         bodyText:(NSString *)bodyText
+                    timestamp:(NSDate *)timestamp;
 
 
 @end
