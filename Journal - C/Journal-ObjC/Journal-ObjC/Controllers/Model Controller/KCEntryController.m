@@ -39,6 +39,7 @@
         _entries = [NSMutableArray new ];
     }
     NSMutableArray *entry = [[NSMutableArray alloc] init];
+    
     KCEntry *newEntry = [[KCEntry alloc] initWithTitle:title bodyText:bodyText timestamp:[NSDate now]];
     [entry addObject: newEntry];
     
@@ -47,7 +48,7 @@
 
 -(void)removeEntry:(KCEntry *)entry;
 {
-    
+   
 }
 
 -(void)updateEntry:(KCEntry *)entry title:(NSString *)title bodyText:(NSString *)bodyText;
